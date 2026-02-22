@@ -1,0 +1,15 @@
+Google Drive: http://s.id/AppPerpus
+https://drive.google.com/drive/folders/1jHu4-GEH4KWj7V8cuC9Ahf4uEDLiUSC?usp=drive_link
+1. Buka project laravel dengan VSCode, hapus foler vendor (jika
+masih ada).
+2. Jalankan command composer install.
+3. Pada file .env ubah value DB_CONNECTION menjadi mysql dan
+DB_DATABASE menjadi nama database yang akan digunakan.
+4. Jalankan command php artisan migrate, jalankan juga seeder yang
+berisi data buku-buku dan akun admin. Atau bisa dengan
+menjalankan keseluruhannya dengan command php artisan
+migrate –seed
+5. Jalankan project laravel.
+Catatan : Front-end menggunakan Bootstrap versi online, pastikan
+terhubung dengan internet.
+Github: https://github.com/VickyIbr/perpustakaan-telkom
